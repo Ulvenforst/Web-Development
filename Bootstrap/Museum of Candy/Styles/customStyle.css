@@ -1,0 +1,92 @@
+/*Set For Background*/
+body {
+	background-color: #f5d9d5;
+	font-family: "Nunito", sans-serif;
+}
+/*Font-color for NavBar*/
+.navbar{
+	transition: background 500ms;
+}
+.blur{
+	background-color: rgb(222, 192, 222, .7);
+	backdrop-filter: blur(4px);
+}
+#mainNavbar .navbar-brand {
+	color: #EA1C2C;
+}
+/*Size and color-link for main navbar*/
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainNavbar .nav-link {
+	color: #fff;
+	transition: .3s;
+}
+#mainNavbar .nav-link:hover {
+	color: #EA1C2C;
+}
+/*Static Header*/
+.staticSlash {
+	color: #EA1C2C;
+}
+.staticTextW {
+	font-weight: 100;
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+/*General main section*/
+.main .infoTitle {
+	color: #EA1C2C;
+	font-size: 2.5rem;
+
+	font-weight: 100;
+}
+.main .mainInfo {
+	color: #f498b8;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+/* MEDIAS */
+@media (max-width: 1134px){
+	.staticTextW {
+		font-size: 40px;
+	}
+}
+@media (max-width: 1045px){
+	.staticTextW {
+		font-size: 35px;
+	}
+}
+@media (max-width:1200px){
+	.main .infoTitle{
+		font-size: 2rem;
+	}
+	.main .mainInfo{
+		line-height: 1.7;
+	}
+}
+@media (max-width: 767px){
+	.info{
+		padding-top: 50px;
+	}
+	.main .info p{
+		margin-bottom: 50px;
+	}
+	.main .first-candy{
+		background-color: #edc9de;
+	}
+	.main .second-candy{
+		background-color: #7cdad9;
+	}
+	.main .third-candy{
+		background-color: #e4bee0;
+	}
+	.main .first-candy .mainInfo{
+		color: #f5f8fc;
+	}
+	.main .mainInfo{
+		color: #f1f1f1;
+	}
+}
